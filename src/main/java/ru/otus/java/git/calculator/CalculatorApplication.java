@@ -10,7 +10,12 @@ public class CalculatorApplication {
             int a = scanner.nextInt();
             System.out.println("Введите второе число");
             int b = scanner.nextInt();
-            System.out.println("Введите номер операции: 1 +, 2 -, 3 *, 4 /");
+            System.out.println("Введите номер операции: ");
+            System.out.println("1 +,");
+            System.out.println("2 -,");
+            System.out.println("3 *,");
+            System.out.println("4 /");
+
             int operation = scanner.nextInt();
             if (operation == 1) {
                 int result = a + b;
