@@ -27,7 +27,7 @@ public class CalculatorApplication {
             System.out.println("Хотите ли выполнить еще одну операцию");
             scanner.nextLine();
             String answer = scanner.nextLine();
-            if (!answer.equals("y")) {
+            if (!answer.equals("y") && !answer.equals("Y")) {
                 break;
             }
         }
